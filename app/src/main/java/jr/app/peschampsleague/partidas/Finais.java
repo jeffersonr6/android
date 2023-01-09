@@ -45,7 +45,7 @@ public class Finais extends Fragment {
         DadosJogos dadosJogos = new DadosJogos("Barcelona", "R. Madrid", "2", "1", R.drawable.logo_barcelona, R.drawable.logo_real_madrid, "Concluida", "Terceiro Lugar");
         lstDadosJogos.add(dadosJogos);
 
-        dadosJogos = new DadosJogos("Flamengo", "Vasco", "3", "0", R.drawable.logo_flamengo, R.drawable.logo_vasco_da_gama, "Concluida", "Final");
+        dadosJogos = new DadosJogos("Flamengo", "Vasco", "3", "0", R.drawable.logo_flamengo_crf, R.drawable.logo_vasco_da_gama, "Concluida", "Final");
         lstDadosJogos.add(dadosJogos);
 
     }

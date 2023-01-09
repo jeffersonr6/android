@@ -63,7 +63,7 @@ public class Jogos extends Fragment {
     }
 
     public void criarDadosJogos() {
-        DadosJogos dadosJogos = new DadosJogos("Flamengo", "Corinthians", "3", "0", R.drawable.logo_flamengo, R.drawable.logo_corinthians, "Concluida", "Fase de Grupos");
+        DadosJogos dadosJogos = new DadosJogos("Flamengo", "Corinthians", "3", "0", R.drawable.logo_flamengo_crf, R.drawable.logo_corinthians, "Concluida", "Fase de Grupos");
         lstDadosJogos.add(dadosJogos);
 
         dadosJogos = new DadosJogos("Barcelona", "R. Madrid", "2", "1", R.drawable.logo_barcelona, R.drawable.logo_real_madrid, "Concluida", "Fase de Grupos");

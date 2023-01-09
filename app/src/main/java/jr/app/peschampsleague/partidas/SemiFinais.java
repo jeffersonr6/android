@@ -43,7 +43,7 @@ public class SemiFinais extends Fragment {
 
     private void criarDadosSemiFinais() {
 
-        DadosJogos dadosJogos = new DadosJogos("Flamengo", "Barcelona", "2", "0", R.drawable.logo_flamengo, R.drawable.logo_barcelona, "Concluida", "Fase Semi-Finais");
+        DadosJogos dadosJogos = new DadosJogos("Flamengo", "Barcelona", "2", "0", R.drawable.logo_flamengo_crf, R.drawable.logo_barcelona, "Concluida", "Fase Semi-Finais");
         lstDadosJogos.add(dadosJogos);
 
         dadosJogos = new DadosJogos("Vasco", "R. Madrid", "1", "0", R.drawable.logo_vasco_da_gama, R.drawable.logo_real_madrid, "Concluida", "Fase Semi-Finais");
