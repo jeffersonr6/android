@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/itmNovaLiga"
+        android:icon="@drawable/ic_nova_liga"
+        android:title="@string/frgNovaLiga" />
+    <item
+        android:id="@+id/itmPartidas"
+        android:icon="@drawable/ic_partidas"
+        android:title="@string/frgParidas" />
+    <item
+        android:id="@+id/itmClassificacao"
+        android:icon="@drawable/ic_classificacao"
+        android:title="@string/frgClassificacao" />
+    <item
+        android:id="@+id/itmArtilharia"
+        android:icon="@drawable/ic_artilharia"
+        android:title="@string/frgArtilharia" />
+    <item
+        android:id="@+id/itmCartoes"
+        android:icon="@drawable/ic_cartoes"
+        android:title="@string/frgCartoes" />
+    <item
+        android:id="@+id/itmHistorico"
+        android:icon="@drawable/ic_star_on_top_of_podium_of_sportive_competition"
+        android:title="@string/frgHistorico" />
+
+</menu>

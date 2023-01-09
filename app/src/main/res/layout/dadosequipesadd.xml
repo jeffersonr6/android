@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".EquipesAdd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/layout_bg"
+        android:elevation="3dp"
+        android:orientation="vertical"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgListSelect"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_brasil" />
+
+            <TextView
+                android:id="@+id/lblNmEquipeSelect"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="3"
+                android:text="@string/lblEquipe"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblNmPlayerSelect"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="2"
+                android:text="@string/lblJogador"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblGrupoSelect"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="2"
+                android:text="@string/lblGrupo"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">PES Champs League</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="tabItemJogos">Jogos</string>
+    <string name="tabItemSemiFinais">Semi-Finais</string>
+    <string name="tabItemFinais">Finais</string>
+    <string name="frgClassificacao">Classificação</string>
+    <string name="frgArtilharia">Artilharia</string>
+    <string name="frgCartoes">Cartões</string>
+    <string name="frgParidas">Partidas</string>
+    <string name="lblNomeApp">PES Champs League</string>
+    <string name="lblDesenvolvido">Desenvolvido by Jefferson Rodrigo</string>
+    <string name="frgNovaLiga">Nova Liga</string>
+
+    <string name="tbiGrupoA">GRUPO A</string>
+    <string name="tbiGrupoB">GRUPO B</string>
+    <string name="lblEquipe">Equipe</string>
+    <string name="lblPontos">P</string>
+    <string name="lblJogos">J</string>
+    <string name="lblVitoria">V</string>
+    <string name="lblEmpate">E</string>
+    <string name="lblDerrotas">D</string>
+    <string name="lblSaldoGols">SG</string>
+    <string name="lblGolsPro">GP</string>
+    <string name="lblGolsContra">GC</string>
+    <string name="lblCVermelho">CV</string>
+    <string name="lblCAmarelo">CA</string>
+    <string name="lblEquipeA">Equipe A</string>
+    <string name="lblResultadoA">0</string>
+    <string name="lblVersus">x</string>
+    <string name="lblEquipeB">Equipe B</string>
+    <string name="lblStatusPartida">Finalizada</string>
+    <string name="lblJogador">Jogador</string>
+    <string name="lblGolsMarcados">0</string>
+    <string name="lblEquipeArtilheiro">Equipe</string>
+    <string name="lblTipoJogo">Tipo de Jogo</string>
+    <string name="lblQtdCartao">00</string>
+    <string name="lblDescP">P = Pontos</string>
+    <string name="lblDescJ">J = Jogos</string>
+    <string name="lblDescV">V = Vitórias</string>
+    <string name="lblDescE">E = Empates</string>
+    <string name="lblDescD">D = Derrotas</string>
+    <string name="lblDescSG">SG = Saldo de Gols</string>
+    <string name="lblDescGP">GP = Gols Prós</string>
+    <string name="lblDescGC">GC = Gols Contra</string>
+    <string name="lblDescCA">CA = Cartões Amarelos</string>
+    <string name="lblDescCV">CV = Cartões Vermelhos</string>
+    <string name="lblGols">Gols</string>
+    <string name="lblTitulo">Entre com os dados da Nova Liga</string>
+    <string name="lblNomeLiga">Nome da Liga</string>
+    <string name="lblNomeEquipe">Selecionar Equipe</string>
+    <string name="lblNomeJogador">Selecione o Jogador</string>
+    <string name="add">Adicionar Registro</string>
+    <string name="lblGrupo">Grupo</string>
+    <string name="btnGerarLiga">Gerar Nova Liga</string>
+    <string name="lblTipoPartida">Fase de Grupos</string>
+    <string name="lblX">X</string>
+    <string name="todo">TODO</string>
+    <string name="frgHistorico">Histórico</string>
+</resources>

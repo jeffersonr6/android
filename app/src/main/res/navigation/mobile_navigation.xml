@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/itmPartidas">
+
+    <fragment
+        android:id="@+id/itmNovaLiga"
+        android:name="jr.app.peschampsleague.NovaLiga"
+        android:label="@string/frgNovaLiga"
+        tools:layout="@layout/fragment_nova_liga" />
+    <fragment
+        android:id="@+id/itmClassificacao"
+        android:name="jr.app.peschampsleague.Classificacao"
+        android:label="@string/frgClassificacao"
+        tools:layout="@layout/fragment_classificacao" />
+    <fragment
+        android:id="@+id/itmCartoes"
+        android:name="jr.app.peschampsleague.Cartoes"
+        android:label="@string/frgCartoes"
+        tools:layout="@layout/fragment_cartoes" />
+    <fragment
+        android:id="@+id/itmArtilharia"
+        android:name="jr.app.peschampsleague.Artilharia"
+        android:label="@string/frgArtilharia"
+        tools:layout="@layout/fragment_artilharia" />
+    <fragment
+        android:id="@+id/itmPartidas"
+        android:name="jr.app.peschampsleague.Partidas"
+        android:label="@string/frgParidas"
+        tools:layout="@layout/fragment_listapartidas" />
+    <fragment
+        android:id="@+id/itmHistorico"
+        android:name="jr.app.peschampsleague.Historico"
+        android:label="@string/frgHistorico"
+        tools:layout="@layout/fragment_historico" />
+</navigation>

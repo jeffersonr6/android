@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    tools:context=".ListaPartidas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/layout_bg"
+        android:clickable="true"
+        android:elevation="3dp"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lblTipoJogo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="3"
+                android:elevation="3dp"
+                android:text="@string/lblTipoJogo"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/lblStatusPartida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="3"
+                android:elevation="3dp"
+                android:text="@string/lblStatusPartida"
+                android:textAlignment="viewEnd"
+                android:textColor="#3D53FF"
+                android:textStyle="bold|italic" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgEquipeA"
+                android:layout_width="5dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="TODO"
+                app:srcCompat="@drawable/logo_flamengo" />
+
+            <TextView
+
+                android:id="@+id/lblEquipeA"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="3"
+                android:elevation="3dp"
+                android:text="@string/lblEquipeA"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblResultadoA"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="0.5"
+                android:elevation="3dp"
+                android:text="@string/lblResultadoA"
+                android:textAlignment="center"
+                android:textColor="#6C6A6A"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="0.5"
+                android:elevation="3dp"
+                android:text="@string/lblVersus"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblResultadoB"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="0.5"
+                android:elevation="3dp"
+                android:text="@string/lblResultadoA"
+                android:textAlignment="center"
+                android:textColor="#6C6A6A"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblEquipeB"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="3"
+                android:elevation="3dp"
+                android:text="@string/lblEquipeB"
+                android:textAlignment="viewEnd"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgEquipeB"
+                android:layout_width="05dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/logo_brasil" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

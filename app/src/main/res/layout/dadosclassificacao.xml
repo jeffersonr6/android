@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/layout_bg"
+        android:clickable="true"
+        android:elevation="3dp"
+        android:focusable="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgEquipeClass"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo_brasil" />
+
+            <TextView
+                android:id="@+id/lblEquipe"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="4"
+                android:text="@string/lblEquipe"
+                android:textAlignment="textStart"
+                android:textColor="#020202"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblPontos"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblPontos"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblJogos"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblJogos"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblVitoria"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblVitoria"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblEmpate"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblEmpate"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblDerrotas"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblDerrotas"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblSaldoGols"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblSaldoGols"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblGolsPro"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblGolsPro"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblGolsContra"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblGolsContra"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblCVermelho"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblCVermelho"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/lblCAmarelo"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_weight="1"
+                android:text="@string/lblCAmarelo"
+                android:textAlignment="viewEnd"
+                android:textColor="#3F51B5"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
